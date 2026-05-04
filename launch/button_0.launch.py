@@ -33,7 +33,7 @@ def declare_launch_args(launch_description: LaunchDescription):
 def generate_launch_description():
     pkg = 'buttons'
     package_path = get_package_share_path(pkg)
-    button_config_file = str(package_path / 'config/button_1.yaml')
+    button_config_file = str(package_path / 'config/button_0.yaml')
 
     launch_description = LaunchDescription()
     declare_launch_args(launch_description=launch_description)

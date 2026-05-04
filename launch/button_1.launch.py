@@ -39,7 +39,7 @@ def generate_launch_description():
     action = IncludeLaunchDescription(
         source,
         launch_arguments={
-            'namespace': 'button_0',
+            'namespace': 'button_1',
             'vehicle_name': LaunchConfiguration('vehicle_name'),
             'button_config_file': button_config_file,
         }.items(),
